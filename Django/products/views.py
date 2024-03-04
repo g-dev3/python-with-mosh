@@ -18,3 +18,6 @@ def byme(request):
 
 def gdev(request):
     return HttpResponse('Created by G Developer')
+
+def about(request):
+    return HttpResponse("This is about page")
