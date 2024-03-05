@@ -10,14 +10,3 @@ def index(request):
 
 def new(request):
     return HttpResponse("New Products")
-
-
-def byme(request):
-    return HttpResponse('By Gopal')
-
-
-def gdev(request):
-    return HttpResponse('Created by G Developer')
-
-def about(request):
-    return HttpResponse("This is about page")
